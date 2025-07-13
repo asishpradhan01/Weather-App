@@ -1,0 +1,14 @@
+@media (max-width: 600px) {
+  .my-ser {
+    font-size: 14px;
+  }
+
+  .ser {
+    padding: 5px;
+  }
+
+  .col {
+    display: flex;
+    flex-direction: column;
+  }
+}

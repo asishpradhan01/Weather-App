@@ -18,11 +18,11 @@ document.querySelector(".my-txt").innerHTML = data.main.humidity + "%";
 document.querySelector(".wind").innerHTML = data.wind.speed + " Km/h";
 
   if(data.weather[0].main == "Clouds") {
-        icons.src = "./images/cloudy.png";
+        icons.src = "cloudy.png";
   } else if(data.weather[0].main == "cloud") {
-    icons.src = "./images/cloud.png";
+    icons.src = "cloud.png";
   } else if(data.weather[0].main == "rain") {
-    icons.src = "./images/rain.png";
+    icons.src = "rain.png";
   }
 }
 

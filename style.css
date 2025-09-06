@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: grid;
+    place-content: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    flex-wrap: wrap;
+    padding: 20px 30px;
+    border-radius: 10px;
+    background: url("./images/mountains.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.aligning {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-ser{
+    background-color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+    color: black;
+    font-size: 1.2rem;
+    margin-right: 15px;
+}
+
+.ser {
+    background-color: white;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.whether-icon {
+    height: 150px;
+    width: 150px;
+    display: block;
+    margin: auto;
+}
+
+.second-con {
+    margin-top: 29px;
+}
+
+.deg {
+    font-size: 2.5rem;
+}
+
+.city {
+    font-size: 1.5rem;
+}
+
+.humidity {
+    width: 50px;
+    height: 50px;
+}
+
+.weather {
+  width: 50px;
+    height: 50px;
+}
+
+.last {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+

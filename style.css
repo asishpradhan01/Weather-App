@@ -20,7 +20,7 @@ body {
     flex-wrap: wrap;
     padding: 20px 30px;
     border-radius: 10px;
-    background: url("./images/mountains.jpg");
+    background: url("mountains.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -90,4 +90,5 @@ body {
     align-items: center;
     text-align: center;
 }
+
 
